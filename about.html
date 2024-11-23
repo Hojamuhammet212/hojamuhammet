@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: linear-gradient(to bottom right, #2c3e50, #34495e);
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: #1abc9c;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        .about-section {
+            max-width: 800px;
+            margin: 3rem auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .about-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .about-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #1abc9c;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-section p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+
+        .skills-section, .hobbies-section {
+            text-align: left;
+            margin-top: 2rem;
+        }
+
+        .skills-section h3, .hobbies-section h3 {
+            font-size: 1.8rem;
+            color: #1abc9c;
+            margin-bottom: 1rem;
+        }
+
+        .skills-list, .hobbies-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .skills-list li, .hobbies-list li {
+            background: #1abc9c;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 1rem;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .skills-list li:hover, .hobbies-list li:hover {
+            background: #16a085;
+            transform: scale(1.1);
+        }
+
+        .cta {
+            margin-top: 2rem;
+        }
+
+        .cta a {
+            display: inline-block;
+            text-decoration: none;
+            background: #e74c3c;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .cta a:hover {
+            background: #c0392b;
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #34495e;
+            color: #fff;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        About Me
+    </header>
+
+    <section class="about-section">
+        <h1>Hi, I'm Muhammad 👋</h1>
+        <img src="profile picture.jpg" alt="Profile Picture">
+        <p>
+            I am a passionate computer science with expertise in coding. 
+            My journey started with interested in with computer science,and coding  over the years, I’ve dedicated myself to creating impactful solutions and meaningful connections.
+        </p>
+        <p>
+            Outside of my work, I enjoy singing,taking photos and write poem. I believe in a philosophy and I strive to make a positive impact through everything I do.
+        </p>
+
+        <div class="skills-section">
+            <h3>My Skills 🛠️</h3>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+
+        <div class="hobbies-section">
+            <h3>My Hobbies 🌍</h3>
+            <ul class="hobbies-list">
+                <li>Photography</li>
+                <li>Traveling</li>
+                <li>Reading</li>
+                <li>Gaming</li>
+                <li>Fitness</li>
+            </ul>
+        </div>
+
+        <div class="cta">
+            <a href="contact.html">Let's Connect</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 [Your name]. All rights reserved.
+    </footer>
+
+</body>
+</html>
